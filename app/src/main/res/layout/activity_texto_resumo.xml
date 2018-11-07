@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/androidimagem"
+        android:layout_gravity="center"
+                        />
+
+
+    <TextView
+        android:id="@+id/bugdroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Bugdroid"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/texto_resumo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="É só pensarmos no nome “Android” que a imagem do robozinho verde da Google
+já aparece em nossas cabeças. Não é difícil fazer a associação, uma vez que se
+trata da logo do sistema operacional portátil mais utilizado do planeta. Pois é, o
+Android está presente em smartphones, tablets e até mesmo Plug-PCs, estando
+disponível para consumidores dos mais diferentes perfis."
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/btn_Lermais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="#E64A19"
+        android:text="LER MAIS"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
+

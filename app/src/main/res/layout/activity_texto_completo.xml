@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="TextoCompleto"
+    android:fillViewport="true"
+    android:padding="16dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+
+
+        <ImageView
+            android:id="@+id/imagem_mascote"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/androidimagem"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp" />
+
+
+        <TextView
+            android:id="@+id/bugdroid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="56dp"
+            android:layout_marginTop="50dp"
+            android:text="Bugdroid"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="56dp" />
+
+
+        <TextView
+            android:id="@+id/texto_resumo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imagem_mascote"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="0dp"
+            android:lineSpacingExtra="4sp"
+            android:text="“ Depois de uma versão assustadora criada por amadores — por mais surpreendente que seja (só que não), aquele mascote mostrado anteriormente não foi feito por profissionais da ilustração —, foi a vez de uma ilustradora de verdade entrar em ação. E aí surgiram os traços de Irina Blok, que conseguiu criar o famoso Bugdroid, transformando o mascote em um verdadeiro ícone da tecnologia dos portáteis.
+Antecipando o que viria a se tornar uma tendência nas logos — de sistemas operacionais, aplicativos e empresas — nos anos seguintes, o Bugdroid possui apenas uma cor e traços bem chapados. É fácil compreender a simplicidade dele e também os conceitos que foram empregados. Como a própria ilustradora diz em sua página: “A ideia era criar uma logo open source (muito parecido com a plataforma Android)”."
+            android:textSize="20sp" />
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
+
+
+
+
